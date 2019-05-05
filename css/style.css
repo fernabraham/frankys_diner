@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    overflow-x: hidden;
+}
+
+a {
+    padding: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav {
+  display: flex;
+  top: 0;
+  background-color: #0D7F6B;
+  background-repeat: no-repeat;
+}
