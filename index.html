@@ -13,7 +13,7 @@
     <nav>
 
         <a class="col-3_12">
-          <img class="logo_image" src="images/logo.png" alt="Franky's Diner">
+          <img class="logo" src="images/logo.png" alt="Franky's Diner">
         </a>
         <div class="col-1_12">&nbsp;</div>
         <div class="col-8_12">
@@ -24,24 +24,26 @@
                 <li><a class="nav-button-active" href="">HOME</a></li>
                 <li><a class="nav-button" href="">MENU</a></li>
                 <li><a class="nav-button" href="">ORDER ONLINE</a></li>
+                <li>
+                  <a>
+                    <img id="burger_menu" src="images/burger_menu.png" alt="">
+                  </a>
+                </li>
               </ul>
-              <a>
-                <img class="burger_menu" src="images/burger_menu.png" alt="">
-              </a>
             </div>
           </div>
-          <h1>Authentic 50's Diner</h1>
+          <h1 class="heading">Authentic 50's Diner</h1>
         </div>
 
     </nav>
 
     <header>
       <div class="col-5_12">
-        <h1>The Original 50’s Style Diner</h1>
-        <p>Franky’s Diner is an authentic 50’s style diner in the heart of
-          Sea Point open 24 HOURS A DAY! Serving up delicious Hamburgers,
-          Footlongs, Sloppy Joes, curly fries & shakes, this diner couldn’t
-          be more 50’s if it tried. Customers can relax and enjoy some
+        <h1 class="subheading">The Original 50’s Style Diner</h1>
+        <p class="paragraph">Franky’s Diner is an authentic 50’s style diner in
+          the heart of Sea Point open 24 HOURS A DAY! Serving up delicious
+          Hamburgers, Footlongs, Sloppy Joes, curly fries & shakes, this diner
+          couldn’t be more 50’s if it tried. Customers can relax and enjoy some
           hound-dog music while sitting on the comfy red vinyl stools at the
           counter or they can choose to snuggle up in the back booth.
           Franky’s Diner is certainly a trip back in time to an era long gone
@@ -57,14 +59,14 @@
         <div class="col-1_12">&nbsp;</div>
         <div class="col-10_12 container">
           <div class="col-3_12">
-            <a class="icon_button" href="">
+            <a href="">
               <img class="image" src="images/kids_parties.png" alt="Kids' Parties">
             </a>
             <a class="icon_button" href="">
               <h2>Kids' Parties</h2>
             </a>
 
-            <a class="icon_button" href="">
+            <a href="">
               <img class="image" src="images/menu.png" alt="Menu">
             </a>
             <a class="icon_button" href="">
@@ -73,14 +75,14 @@
           </div>
 
           <div class="col-3_12">
-            <a class="icon_button" href="">
+            <a href="">
               <img class="image" src="images/chubby_burger.png" alt="The Chubby Burger">
             </a>
             <a class="icon_button" href="">
               <h2>The Chubby Burger</h2>
             </a>
 
-            <a class="icon_button" href="">
+            <a href="">
               <img class="image" src="images/order_online.png" alt="Order Online">
             </a>
             <a class="icon_button" href="">
@@ -89,14 +91,14 @@
           </div>
 
           <div class="col-3_12">
-            <a class="icon_button" href="">
+            <a href="">
               <img class="image" src="images/karaoke.png" alt="Karaoke">
             </a>
             <a class="icon_button" href="">
               <h2>Karaoke</h2>
             </a>
 
-            <a class="icon_button" href="">
+            <a href="">
               <img class="image" src="images/get_in_touch.png" alt="Get in Touch">
             </a>
             <a class="icon_button" href="">
@@ -105,14 +107,14 @@
           </div>
 
           <div class="col-3_12">
-            <a class="icon_button" href="">
+            <a href="">
               <img class="image" src="images/entertainment.png" alt="Entertainment">
             </a>
             <a class="icon_button" href="">
               <h2>Entertainment</h2>
             </a>
 
-            <a class="icon_button" href="">
+            <a href="">
               <img class="image" src="images/download_our_app.png" alt="Download our App">
             </a>
             <a class="icon_button" href="">
@@ -124,16 +126,26 @@
       </div>
     </section>
 
-    <footer>
+    <footer class="footer">
+
       <div class="col-1_12">&nbsp;</div>
+
       <div class="col4_12">
+
         <div class="col-1_12">
-          <img class="image" src="images/.png" alt="Location">
-          <img class="image" src="images/.png" alt="Contact Number">
-          <img class="image" src="images/.png" alt="Email">
+          <img class="footer_image" src="images/location.png" alt="Location">
+          <img class="footer_image" src="images/number.png" alt="Contact Number">
+          <img class="footer_image" src="images/email.png" alt="Email">
         </div>
+
         <div class="col-11_12">
-          <a class="footer_button" href="">
+          <p class="list">
+            <a href="#">303 Main Road, Sea Point, Cape Town</a>
+            <a href="#">021 433 0445</a>
+            <a href="#">info@frankysdiner.co.za</a>
+            <a href="#">bookings@frankysdiner.co.za</a>
+          </p>
+          <!-- <a class="footer_button" href="">
             <p>303 Main Road, Sea Point, Cape Town</p>
           </a>
           <a class="footer_button" href="">
@@ -144,42 +156,44 @@
           </a>
           <a class="footer_button" href="">
             <p>bookings@frankysdiner.co.za</p>
-          </a>
+          </a> -->
         </div>
+
       </div>
+
       <div class="col-2_12">&nbsp;</div>
       <div class="col4_12">
-        <h1>Open 24 hours a day</h1>
+        <h1 class="footer_text">Open 24 hours a day</h1>
         <div class="col-1_12">&nbsp;</div>
         <div class="col-11_12">
           <div class="col-2_12">
             <a class="social_media_button" href="">
-              <img class="image" src="images/.png" alt="Facebook">
+              <img src="images/facebook.png" alt="Facebook">
             </a>
           </div>
           <div class="col-2_12">
             <a class="social_media_button" href="">
-              <img class="image" src="images/.png" alt="Twitter">
+              <img src="images/twitter.png" alt="Twitter">
             </a>
           </div>
           <div class="col-2_12">
             <a class="social_media_button" href="">
-              <img class="image" src="images/.png" alt="Instagram">
+              <img src="images/instagram.png" alt="Instagram">
             </a>
           </div>
           <div class="col-2_12">
             <a class="social_media_button" href="">
-              <img class="image" src="images/.png" alt="You Tube">
+              <img src="images/youtube.png" alt="You Tube">
             </a>
           </div>
           <div class="col-2_12">
             <a class="social_media_button" href="">
-              <img class="image" src="images/.png" alt="Gogle Plus">
+              <img src="images/googleplus.png" alt="Gogle Plus">
             </a>
           </div>
           <div class="col-2_12">
             <a class="social_media_button" href="">
-              <img class="image" src="images/.png" alt="Tripadvisor">
+              <img src="images/tripadvisor.png" alt="Tripadvisor">
             </a>
           </div>
         </div>
