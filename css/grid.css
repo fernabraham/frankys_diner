@@ -18,10 +18,3 @@
 .col-10_12 { width: 83.3333%; }
 .col-11_12 { width: 91.6666%; }
 .col-12_12 { width: 100%; }
-
-/* class work */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-  .col-12 {
-    width: 90%
-  }
-}
