@@ -32,7 +32,7 @@ nav {
 
 .logo {
   padding-top: 50px;
-  /* width: 240px; */
+  margin-left: 62px;
 }
 
 a.logo, a.logo:hover {
@@ -182,10 +182,11 @@ max-width: 100%;
 
 .social_media_button {
   padding: 0px;
-  opacity: 100;
   margin-left: 13px;
   max-width: 100%;
 }
+
+
 
 /* mobile */
 @media only screen and (max-width: 425px) {
@@ -215,6 +216,22 @@ max-width: 100%;
       font-size: 16px;
     }
 
+    .subheading {
+      padding-top: 40px;
+    }
+
+    .paragraph {
+      padding: 0 35px 40px 35px;
+    }
+
+    .header_image {
+    margin-bottom: 0px;
+    }
+
+    .footer {
+      margin-top: 0px;
+    }
+
     .footer_info {
       font-size: 12px;
     }
@@ -223,10 +240,27 @@ max-width: 100%;
       font-size: 20px;
     }
 
+    .detail {
+      float: none;
+      margin-top: 0px;
+      margin-bottom: 15px;
+    }
+
+    .social_media_button {
+      padding: 0 5px 0 5px;
+    }
+
   }
+
+
+
 
 /* tablet */
 @media only screen and (min-width: 468px) and (max-width: 1024px){
+
+    .logo {
+      padding-top: 35px;
+    }
 
     h1 {
       font-size: 50px;
@@ -239,6 +273,18 @@ max-width: 100%;
 
     .subheading {
       padding: 85px 0 0 0;
+    }
+
+    .paragraph {
+      padding: 0 40px 0 40px;
+    }
+
+    .header_image {
+    margin-bottom: 80px;
+    }
+
+    .footer {
+      margin-top: 80px;
     }
 
     .footer_text {
