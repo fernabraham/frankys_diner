@@ -248,6 +248,7 @@ max-width: 100%;
 
     .social_media_button {
       padding: 0 5px 0 5px;
+      margin-left: 0px;
     }
 
   }
@@ -293,6 +294,10 @@ max-width: 100%;
 
     .footer_info {
       font-size: 15px;
+    }
+
+    .social_media_button {
+      margin-left: 0px;
     }
 
 }
