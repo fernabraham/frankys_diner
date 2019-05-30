@@ -82,6 +82,10 @@ li a {
   display: none;
 }
 
+.mobile_header {
+  display: none;
+}
+
 @font-face {
   font-family: 'poiret_one';
   src: url('../css/PoiretOne-Regular.ttf');
@@ -122,6 +126,14 @@ p {
   padding: 175px 0 52px 0;
   color: #002868;
   text-align: center;
+}
+
+.desktop_section {
+  display: inline-block;
+}
+
+.scrollable_section {
+  display: none;
 }
 
 .footer_text {
@@ -211,9 +223,9 @@ max-width: 100%;
 
 /* mobile */
 @media only screen and (max-width: 425px) {
-  [class*="col-"] {
+  /* [class*="col-"] {
       width: 100%;
-    }
+    } */
 
     .desktop_nav {
       display: none;
@@ -261,6 +273,28 @@ max-width: 100%;
     margin-bottom: 0px;
     }
 
+    .desktop_section {
+      display: none;
+    }
+
+    .scrollable_section {
+    display: inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    }
+
+    .desktop_footer {
+      display: none;
+    }
+
+    .tablet_footer {
+      display: none;
+    }
+
+    .mobile_footer {
+      display: inline-block;
+    }
+    
     .footer {
       margin-top: 0px;
     }
@@ -290,7 +324,7 @@ max-width: 100%;
 
 
 /* tablet */
-@media only screen and (min-width: 468px) and (max-width: 1024px){
+@media only screen and (min-width: 468px) and (max-width: 1024px) {
 
     .desktop_nav {
       display: none;
